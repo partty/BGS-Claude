@@ -1,0 +1,19 @@
+{
+  "name": "bgs",
+  "owner": {
+    "name": "BG Service"
+  },
+  "description": "BG Service internal Claude Code plugins",
+  "plugins": [
+    {
+      "name": "nzoom-assistant",
+      "source": {
+        "source": "git-subdir",
+        "url": "git@gitlab.bgservice.net:ai-skills/nzoom-skills.git",
+        "path": "nzoom-assistant",
+        "ref": "main"
+      },
+      "description": "nZoom assistant skills: automations (АД), analyses (справки), documentation navigation, configuration and SQL conventions"
+    }
+  ]
+}
