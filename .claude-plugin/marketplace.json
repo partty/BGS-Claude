@@ -9,7 +9,7 @@
       "name": "nzoom-assistant",
       "source": {
         "source": "git-subdir",
-        "url": "git@gitlab.bgservice.net:ai-skills/nzoom-skills.git",
+        "url": "https://gitlab.bgservice.net/ai-skills/nzoom-skills.git",
         "path": "nzoom-assistant",
         "ref": "main"
       },
